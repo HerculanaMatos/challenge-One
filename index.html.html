@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Encriptador</title>
+</head>
+<body>
+    <main>
+        <header>
+            <img id="logo" src="Vectorlogoalura.png" alt="logo alura">
+        </header>
+    <section>
+        <div>
+            <h1 class="titulo">Isso é um decodificador de texto</h1>
+        </div>
+        <div>
+            <textarea class="area-texto" cols="50" rows="5" placeholder="Digite seu texto aqui"></textarea>
+            <h6 class="sub-titulo">Atenção: Apenas letras minúsculas!</h6>
+        </div>
+        <div class="botoes">
+            <button class="btn-encriptar" onclick ="btnEncriptar()">Criptografar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()"> Descriptografar</button>
+        </div>
+    </section>
+    <section>
+        <div>
+            <textarea class="mensagem" cols="20" rols="10"></textarea>
+            <img class="lupa" src="lupa.jpeg" alt="homen com lupa">
+            <button class="btn-copiar">copiar</button>
+        </div>
+    </section>      
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
